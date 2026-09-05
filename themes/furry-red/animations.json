@@ -1,0 +1,10 @@
+{
+  "rotate": {
+    "tail": {
+      "anchor_asset": "tail",
+      "rest_angle": 0,
+      "on_focus": { "mode": "loop", "amplitude": 5, "duration_ms": 2500, "easing": "ease-in-out" },
+      "on_blur": { "mode": "ease_to", "angle": 0, "duration_ms": 400, "easing": "ease-out" }
+    }
+  }
+}

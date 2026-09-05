@@ -1,0 +1,49 @@
+:root, :root[data-theme=dark], .dark-mode, .dark {
+  --surface-1: #1e1618 !important;
+  --surface-1-5: #241a1c !important;
+  --surface-2: #241a1d !important;
+  --surface-2-5: #2a1e20 !important;
+  --surface-3: #2e2124 !important;
+  --surface-4: #3a2a2c !important;
+  --surface-5: #4a3336 !important;
+  --color-bg: var(--surface-1) !important;
+  --color-raised-bg: var(--surface-3) !important;
+  --color-super-raised-bg: var(--surface-4) !important;
+  --color-button-bg: var(--surface-4) !important;
+  --color-button-border: #ffffff1f !important;
+  --color-scrollbar: var(--surface-5) !important;
+  --color-divider: var(--color-button-bg) !important;
+  --color-divider-dark: #6b4f52 !important;
+  --color-text-primary: #f5ece9 !important;
+  --color-text-default: #c9b7b8 !important;
+  --color-text-tertiary: #a58e8f !important;
+  --color-base: var(--color-text-default) !important;
+  --color-secondary: var(--color-text-tertiary) !important;
+  --color-contrast: var(--color-text-primary) !important;
+  --color-red-500: #cd4542 !important;
+  --color-red: var(--color-red-500) !important;
+  --color-green-500: #cd4542 !important;
+  --color-green: var(--color-green-500) !important;
+  --color-brand: var(--color-red) !important;
+  --color-brand-highlight: #cd454240 !important;
+  --color-brand-shadow: #cd4542b3 !important;
+  --color-accent-contrast: #fff !important;
+  --color-button-bg-selected: var(--color-brand-highlight) !important;
+  --color-button-text-selected: var(--color-brand) !important;
+  --brand-gradient-bg: linear-gradient(0deg, #23090933 0%, #78191a1a 100%) !important;
+  --brand-gradient-strong-bg: linear-gradient(270deg, #110a0b 10%, #241416 100%) !important;
+  --brand-gradient-button: linear-gradient(180deg, #d95c56 0%, #a9312e 100%) !important;
+  --brand-gradient-border: #ff9b9b14 !important;
+  --loading-bar-gradient: linear-gradient(to right, var(--color-brand) 0%, #ff8a7a 100%) !important;
+  --splash-tint-top: #83424646 !important;
+  --splash-tint-bottom: #2b111180 !important;
+  --splash-overlay: #1e1618a3 !important;
+}
+
+.floating-action-bar, [class*="titlebar" i], [class*="topbar" i], header {
+  background: linear-gradient(180deg, #501a20, #3a1216) !important;
+}
+
+button[class*="shadow-[inset_0_0_0_1px_var(--color-brand)]"] {
+  box-shadow: inset 0 0 0 1px var(--color-brand), inset 0 0 10px 2px var(--color-brand-shadow), inset 0 0 20px 4px #cd45421a !important;
+}
