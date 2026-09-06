@@ -1,0 +1,24 @@
+{
+  "name": "Furry - Red",
+  "css": "style.css",
+  "reference_window": { "width": 1211, "height": 693 },
+  "assets": [
+    {
+      "id": "frame",
+      "file": "frame.png",
+      "size": [1327, 844],
+      "mode": "nine_slice",
+      "slice": { "left": 442, "top": 281, "right": 442, "bottom": 281 },
+      "offset": [-58, -101]
+    },
+    {
+      "id": "tail",
+      "file": "tail.png",
+      "size": [410, 393],
+      "mode": "fixed",
+      "anchor_corner": "bottom_right",
+      "offset_from_corner": [-165, -328],
+      "rotation_anchor": [5, 331]
+    }
+  ]
+}

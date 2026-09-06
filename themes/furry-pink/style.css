@@ -1,0 +1,60 @@
+:root, :root[data-theme=dark], .dark-mode, .dark {
+  --surface-1: #1f1418 !important;
+  --surface-1-5: #28191f !important;
+  --surface-2: #28191f !important;
+  --surface-2-5: #321e27 !important;
+  --surface-3: #3b232e !important;
+  --surface-4: #4a2b3a !important;
+  --surface-5: #5c3448 !important;
+  --color-bg: var(--surface-1) !important;
+  --color-raised-bg: var(--surface-3) !important;
+  --color-super-raised-bg: var(--surface-4) !important;
+  --color-button-bg: var(--surface-4) !important;
+  --color-button-border: #ffffff1f !important;
+  --color-scrollbar: var(--surface-5) !important;
+  --color-divider: var(--color-button-bg) !important;
+  --color-divider-dark: #824f69 !important;
+  --color-text-primary: #fceef4 !important;
+  --color-text-default: #dcbcc9 !important;
+  --color-text-tertiary: #b893a4 !important;
+  --color-base: var(--color-text-default) !important;
+  --color-secondary: var(--color-text-tertiary) !important;
+  --color-contrast: var(--color-text-primary) !important;
+  --color-red-500: #e65c9c !important;
+  --color-red: var(--color-red-500) !important;
+  --color-green-500: #e65c9c !important;
+  --color-green: var(--color-green-500) !important;
+  --color-brand: var(--color-red) !important;
+  --color-brand-highlight: #e65c9c1a !important;
+  --color-brand-shadow: #e65c9cb3 !important;
+  --color-accent-contrast: #fff !important;
+  --color-button-bg-selected: var(--color-brand-highlight) !important;
+  --color-button-text-selected: var(--color-brand) !important;
+  --brand-gradient-bg: linear-gradient(0deg, #2b091a33 0%, #8719541a 100%) !important;
+  --brand-gradient-strong-bg: linear-gradient(270deg, #180a13 10%, #301424 100%) !important;
+  --brand-gradient-button: linear-gradient(180deg, #f07ab0 0%, #c2387b 100%) !important;
+  --brand-gradient-border: #ff9be314 !important;
+  --loading-bar-gradient: linear-gradient(to right, var(--color-brand) 0%, #ff8ad8 100%) !important;
+  --splash-tint-top: #99426f46 !important;
+  --splash-tint-bottom: #3a112880 !important;
+  --splash-overlay: #1f1418a3 !important;
+}
+
+[class*="titlebar" i], [class*="topbar" i], header {
+  background: linear-gradient(180deg, #5e1a3d, #42122a) !important;
+}
+
+button[class*="shadow-[inset_0_0_0_1px_var(--color-brand)]"] {
+  box-shadow: inset 0 0 0 1px var(--color-brand), inset 0 0 10px 2px var(--color-brand-shadow), inset 0 0 20px 4px #e65c9c1a !important;
+}
+
+div[class*="group/input"]:has(input[placeholder^="Search" i]) {
+  background: var(--surface-2) !important;
+  background-color: var(--surface-2) !important;
+}
+
+div[class*="group/input"]:has(input[placeholder^="Search" i]) div,
+div[class*="group/input"]:has(input[placeholder^="Search" i]) input {
+  background: transparent !important;
+  background-color: transparent !important;
+}
