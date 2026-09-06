@@ -48,12 +48,13 @@ button[class*="shadow-[inset_0_0_0_1px_var(--color-brand)]"] {
   box-shadow: inset 0 0 0 1px var(--color-brand), inset 0 0 10px 2px var(--color-brand-shadow), inset 0 0 20px 4px #cd45421a !important;
 }
 
-.bg-button-bg:has(input[placeholder^="Search" i]) {
+div[class*="group/input"]:has(input[placeholder^="Search" i]) {
   background: var(--surface-2) !important;
   background-color: var(--surface-2) !important;
 }
 
-.bg-button-bg:has(input[placeholder^="Search" i]) div {
+div[class*="group/input"]:has(input[placeholder^="Search" i]) div,
+div[class*="group/input"]:has(input[placeholder^="Search" i]) input {
   background: transparent !important;
   background-color: transparent !important;
 }
