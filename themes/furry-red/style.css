@@ -25,7 +25,7 @@
   --color-green-500: #cd4542 !important;
   --color-green: var(--color-green-500) !important;
   --color-brand: var(--color-red) !important;
-  --color-brand-highlight: #cd45421a !important;
+  --color-brand-highlight: #cd454240 !important;
   --color-brand-shadow: #cd4542b3 !important;
   --color-accent-contrast: #fff !important;
   --color-button-bg-selected: var(--color-brand-highlight) !important;
@@ -40,16 +40,10 @@
   --splash-overlay: #1e1618a3 !important;
 }
 
-[class*="titlebar" i], [class*="topbar" i], header {
+.floating-action-bar, [class*="titlebar" i], [class*="topbar" i], header {
   background: linear-gradient(180deg, #501a20, #3a1216) !important;
 }
 
 button[class*="shadow-[inset_0_0_0_1px_var(--color-brand)]"] {
   box-shadow: inset 0 0 0 1px var(--color-brand), inset 0 0 10px 2px var(--color-brand-shadow), inset 0 0 20px 4px #cd45421a !important;
-}
-
-*:has(> input[placeholder^="Search" i]) {
-  background: var(--surface-2) !important;
-  background-color: var(--surface-2) !important;
-  background-image: none !important;
 }
